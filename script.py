@@ -19,7 +19,7 @@ class Inference:
         self.expected_output = ""
         self.accuracy = 0.0
 
-    def inference(self) -> str:
+    def inference(self):
         self.expected_output = pipe.generate(self.prompt, max_new_tokens=100, do_sample=False)
 
     def evaluate(self):
