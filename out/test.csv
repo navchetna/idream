@@ -1,0 +1,4 @@
+prompt,output,expected_output,accuracy
+What is the sound of the letter 'A'?,The letter 'A' can make sounds like 'a' in 'apple' (short 'a') or 'ay' in 'ape' (long 'a').," The answer is... (drum roll)... nothing! The letter 'A' doesn't make a sound. It's a silent letter, which means it doesn't produce any audible sound when spoken.
+
+However, the letter 'A' does make a sound when it's part of a word. For example, in the word ""cat,"" the letter 'A' makes a soft ""ah"" sound. But, in the context of the question, the sound of the letter 'A' is",0.0

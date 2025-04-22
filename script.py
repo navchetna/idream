@@ -2,10 +2,13 @@ import csv
 import openvino_genai as ov_genai
 from sklearn.metrics import accuracy_score
 
-model_path = "TinyLlama"
-pipe = ov_genai.LLMPipeline(model_path, "NPU")
+home = "/home/thebeginner86/code/idream"
 
-input = ["biology.csv", "english.csv", "maths.csv", "physics.csv", "chemistry.csv"]
+model_path = "TinyLlama"
+pipe = ov_genai.LLMPipeline("/home/thebeginner86/code/idream/Llama-3.2-3B-Instruct", "CPU")
+
+# input = ["biology.csv", "english.csv", "maths.csv", "physics.csv", "chemistry.csv"]
+input = ["test.csv"]
 
 class Inference:
     prompt: str
@@ -22,23 +25,18 @@ class Inference:
     def inference(self):
         self.expected_output = pipe.generate(self.prompt, max_new_tokens=100, do_sample=False)
 
+    # here make req to Groq that would some model hosted
+    # ask, evaluate this output with expected output
     def evaluate(self):
-        output = {
-            "prompt": self.prompt,
-            "output": self.output,
-        }
-        expected_output = {
-            "prompt": self.prompt,
-            "expected_output": self.expected_output,
-        }
-        correct_responses = sum(
-            1 for original, new in zip(expected_output, output)
-            if original["output"] == new["expected_output"]
-        )
-        self.accuracy = correct_responses / len(output) 
+        pass
 
+
+# logic it appends to the file
+# avc
+# cde
+# efs
 def write(filename: str, inference: Inference):
-    outputfile = "out" + "/" + filename 
+    outputfile = home + "/" + "out" + "/" + filename 
     with open(outputfile, mode='w') as csv_file:
         fieldnames = ['prompt', 'output', 'expected_output', 'accuracy']
         writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
@@ -51,7 +49,7 @@ def write(filename: str, inference: Inference):
         })
 
 def read(filename: str):
-    with open(file=filename, mode='r') as csv_file:
+    with open(file=home + "/" + "input" + "/" + filename, mode='r') as csv_file:
         csv_reader = csv.DictReader(csv_file)
         line_count = 0
         for row in csv_reader:
