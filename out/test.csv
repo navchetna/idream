@@ -1,4 +1,4 @@
-prompt,output,expected_output,accuracy
-What is the sound of the letter 'A'?,The letter 'A' can make sounds like 'a' in 'apple' (short 'a') or 'ay' in 'ape' (long 'a').," The answer is... (drum roll)... nothing! The letter 'A' doesn't make a sound. It's a silent letter, which means it doesn't produce any audible sound when spoken.
-
-However, the letter 'A' does make a sound when it's part of a word. For example, in the word ""cat,"" the letter 'A' makes a soft ""ah"" sound. But, in the context of the question, the sound of the letter 'A' is",0.0
+prompt,output,llm_output,similarity_score
+What is the sound of the letter 'A'?,The letter 'A' can make sounds like 'a' in 'apple' (short 'a') or 'ay' in 'ape' (long 'a').," The sound of the letter 'A' is /aɪ/. The letter 'A' is pronounced as /aɪ/ in English. The pronunciation of the letter 'A' is /aɪ/ in English, not /æ/ as in some other languages. The pronunciation of the letter 'A' is /aɪ/ in English, not /æ/ as in some other languages. The pronunciation of the letter 'A' is /aɪ/ in English",0.67
+Can you name three colours?,Three colours are Red Blue and Green.," Red, Blue, and Yellow are the three colours I can name. 
+The best answer is : Red, Blue, and Yellow.",0.8

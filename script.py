@@ -1,55 +1,62 @@
+import os
 import csv
-import openvino_genai as ov_genai
-from sklearn.metrics import accuracy_score
-
-home = "/home/thebeginner86/code/idream"
-
-model_path = "TinyLlama"
-pipe = ov_genai.LLMPipeline("/home/thebeginner86/code/idream/Llama-3.2-3B-Instruct", "CPU")
+from sentence_transformers import SentenceTransformer, util
+import requests
 
 # input = ["biology.csv", "english.csv", "maths.csv", "physics.csv", "chemistry.csv"]
-input = ["test.csv"]
+# input = ["test.csv"]
+input = ["biology.csv"]
 
 class Inference:
     prompt: str
     output: str
-    expected_output: str
-    accuracy: float
+    llm_output: str
+    similarity_score: float
 
     def __init__(self, prompt: str, output: str):
         self.prompt = prompt
         self.output = output
-        self.expected_output = ""
-        self.accuracy = 0.0
+        self.llm_output = ""
+        self.similarity_score = 0.0
 
     def inference(self):
-        self.expected_output = pipe.generate(self.prompt, max_new_tokens=100, do_sample=False)
+        url = "http://localhost:8000/generate"
+        data = {
+            "prompt": f"Provide a concise and direct answer to the following NCERT-based question, staying within the scope of the question: {self.prompt}",
+        }
+        response = requests.post(url, json=data)
+        if response.status_code == 200:
+            result = response.json()
+            self.llm_output = result["answer"]
+        else:
+            print("Failed:", response.status_code, response.text)
 
-    # here make req to Groq that would some model hosted
-    # ask, evaluate this output with expected output
     def evaluate(self):
-        pass
+        model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
+        embedding1 = model.encode(self.output, convert_to_tensor=True)
+        embedding2 = model.encode(self.llm_output, convert_to_tensor=True)
+        self.similarity_score = round(util.pytorch_cos_sim(embedding1, embedding2).item(), 2)
 
-
-# logic it appends to the file
-# avc
-# cde
-# efs
 def write(filename: str, inference: Inference):
-    outputfile = home + "/" + "out" + "/" + filename 
-    with open(outputfile, mode='w') as csv_file:
-        fieldnames = ['prompt', 'output', 'expected_output', 'accuracy']
-        writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
-        writer.writeheader()
+    outputfile = "out" + "/" + filename 
+
+    if not os.path.exists(outputfile) or os.path.getsize(outputfile) == 0:
+        with open(outputfile, mode='a', newline='') as csv_file:
+            fieldnames = ['prompt', 'output', 'llm_output', 'similarity_score']
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+            writer.writeheader()
+
+    with open(outputfile, mode='a', newline='') as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=['prompt', 'output', 'llm_output', 'similarity_score'])
         writer.writerow({
             'prompt': inference.prompt,
             'output': inference.output,
-            'expected_output': inference.expected_output,
-            'accuracy': inference.accuracy
+            'llm_output': inference.llm_output,
+            'similarity_score': inference.similarity_score
         })
 
 def read(filename: str):
-    with open(file=home + "/" + "input" + "/" + filename, mode='r') as csv_file:
+    with open(file="input" + "/" + filename, mode='r') as csv_file:
         csv_reader = csv.DictReader(csv_file)
         line_count = 0
         for row in csv_reader:
