@@ -1,2 +1,2 @@
-pip install -U  --pre "openvino==2025.0.0" openvino-tokenizers[transformers] "openvino-genai==2025.0.0"
+pip install --pre -U openvino openvino-tokenizers openvino-genai --extra-index-url https://storage.openvinotoolkit.org/simple/wheels/nightly
 pip install --extra-index-url https://download.pytorch.org/whl/cpu "git+https://github.com/huggingface/optimum-intel.git"  "nncf==2.15.0"  "torch==2.5.1"  "datasets"  "accelerate" "transformers>=4.43.1"  "huggingface-hub>=0.26.5"  "einops" "transformers_stream_generator" "tiktoken" "bitsandbytes" "fastapi" "uvicorn" "sentence_transformer"
