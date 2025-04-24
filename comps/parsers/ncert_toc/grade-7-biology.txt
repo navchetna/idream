@@ -1,0 +1,98 @@
+1;Nutrition in Plants
+2;MODE OF NUTRITION IN PLANTS
+2;PHOTOSYNTHESIS — FOOD MAKING PROCESS IN PLANTS
+3;Synthesis of plant food other than carbohydrates
+2;OTHER MODES OF NUTRITION IN PLANTS
+2;SAPROTROPHS
+2;HOW NUTRIENTS ARE REPLENISHED IN THE SOIL
+2;Keywords
+2;What you have learnt
+2;Exercise
+2;Extended Learning — Activities and Projects
+2;Did you know?
+1;Nutrition in Animals
+2;DIFFERENT WAYS OF TAKING FOOD
+2;DIGESTION IN HUMANS
+3;The mouth and buccal cavity
+3;The foodpipe/oesophagus
+3;The stomach
+3;The small intestine
+3;Absorption in the small intestine
+3;Large intestine
+2;DIGESTION IN GRASS-EATING ANIMALS
+2;FEEDING AND DIGESTION IN AMOEBA
+2;Keywords
+2;What you have learnt
+2;Exercises
+2;Extended Learning — Activities and Project
+2;Did you know?
+1;Respiration in Organisms
+2;WHY DO WE RESPIRE?
+2;BREATHING
+2;HOW DO WE BREATHE?
+2;WHAT DO WE BREATHE OUT ?
+2;BREATHING IN OTHER ANIMALS
+2;BREATHING UNDER WATER
+2;DO PLANTS ALSO RESPIRE?
+2;Keywords
+2;What you have learnt
+2;Exercises
+2;Extended Learning — Activities and Projects
+2;Did you know?
+1;Transportation in Animals and Plants
+2;CIRCULATORY SYSTEM
+3;Blood
+3;Blood vessels
+3;Heart
+3;Heartbeat
+2;EXCRETION IN ANIMALS
+3;Excretory system in humans
+2;TRANSPORT OF SUBSTANCES IN PLANTS
+3;Transport of water and minerals
+3;Transpiration
+2;Keywords
+2;What you have learnt
+2;Exercises
+2;Extended Learning — Activities and Projects
+2;Did you know?
+1;Reproduction in Plants
+2;MODES OF REPRODUCTION
+3;Asexual reproduction
+3;Vegetative propagation
+3;Budding
+3;Fragmentation
+3;Spore Formation
+2;Sexual Reproduction
+3;Pollination
+3;Fertilisation
+2;FRUITS AND SEED FORMATION
+2;SEED DISPERSAL
+2;Keywords
+2;What you have learnt
+2;Exercises
+2;Extended Learning — Activities and Projects
+1;Forests: Our Lifeline
+2;VISIT TO A FOREST
+2;Keywords
+2;What you have learnt
+2;Exercises
+2;Extended Learning — Activities and Projects
+2;Did you know?
+1;Wastewater Story
+2;WATER, OUR LIFELINE
+2;WHAT IS SEWAGE?
+2;WATER FRESHENS UP — AN EVENTFUL JOURNEY
+3;Treatment of polluted water
+2;WASTEWATER TREATMENT PLANT (WWTP)
+3;Become an active citizen
+2;BETTER HOUSEKEEPING PRACTICES
+2;SANITATION AND DISEASE
+2;ALTERNATIVE ARRANGEMENT FOR SEWAGE DISPOSAL
+2;SANITATION AT PUBLIC PLACES
+3;Conclusion
+2;Keywords
+2;What you have learnt
+2;Exercises
+2;Extended Learning — Activities and Projects
+2;For more information, consult:
+2;An early engineering feat: Indus valley civilisation

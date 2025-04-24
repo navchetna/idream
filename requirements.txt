@@ -1,0 +1,13 @@
+requests
+langchain
+langchain_huggingface
+langchain_community
+fastapi
+docarray
+prometheus_fastapi_instrumentator
+uvicorn
+marker-pdf
+sortedcontainers
+pdfminer
+python-multipart
+faiss-cpu
