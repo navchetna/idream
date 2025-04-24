@@ -1,5 +1,7 @@
 __pycache__
 venv
+uploaded_files
+out
 Llama-3.2-3B-Instruct
 Phi-3.5-mini-instruct-fp16-ov
 Qwen2.5-3B-Instruct
