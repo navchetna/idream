@@ -5,8 +5,8 @@ import requests
 from model import generate_text
 
 # input = ["biology.csv", "english.csv", "maths.csv", "physics.csv", "chemistry.csv"]
-# input = ["test.csv"]
-input = ["biology.csv"]
+input = ["test.csv"]
+# input = ["biology.csv"]
 
 class Inference:
     class_range: str
@@ -50,7 +50,7 @@ class Inference:
         self.llm_output_phi_rag = generated_texts["answer_phi_rag"]
 
     def evaluate(self):
-        model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
+        model = SentenceTransformer('BAAI/bge-base-en-v1.5')
         embedding1 = model.encode(self.output, convert_to_tensor=True)
 
         embedding2_llama = model.encode(self.llm_output_llama, convert_to_tensor=True)

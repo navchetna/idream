@@ -23,9 +23,7 @@ def load_knowledgeBase():
 knowledgeBase = load_knowledgeBase()
 
 prompt_template_without_context = PromptTemplate.from_template(
-    """You are a knowledgeable and student-friendly assistant. 
-Answer the following question clearly and accurately based on your understanding of the NCERT curriculum. 
-Keep your answer concise and suitable for school-level understanding.
+    """You are a helpful assistant
 
 Question:
 {question}
@@ -34,9 +32,7 @@ Answer:"""
 )
 
 prompt_template_with_context = PromptTemplate.from_template(
-    """You are a knowledgeable and student-friendly assistant. 
-Use the context provided from the NCERT textbook to give a clear and accurate answer to the question. 
-Make your answer concise and suitable for school-level understanding.
+    """You are a helpful assistant. Use only the below context and answer the question. Remove any unecessary information
 
 Context:
 {context}
@@ -69,8 +65,9 @@ def generate_text(class_range: str, query: str):
     similar_docs = knowledgeBase.similarity_search(query, k=5)
     filtered_docs = [
         doc for doc in similar_docs if int(doc.metadata['grade']) in grade_list
-    ]
+    ] 
     context = format_docs(filtered_docs)
+    print(context)
     prompt_with_context = prompt_template_with_context.format(context=context, question=query)
 
     result_llama_rag = pipe_llama.generate(prompt_with_context, max_new_tokens=100, do_sample=False)

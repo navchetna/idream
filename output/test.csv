@@ -1,3 +1,69 @@
-prompt,output,llm_output_llama,llm_output_qwen,llm_output_phi,similarity_score_llama,similarity_score_qwen,similarity_score_phi
-What is the sound of the letter 'A'?,The letter 'A' can make sounds like 'a' in 'apple' (short 'a') or 'ay' in 'ape' (long 'a').,"The sound of the letter 'A' can be either /æ/ (as in ""cat"") or /æː/ (as in ""father"").","The sound of the letter 'A' can vary depending on the context in which it appears. In English, the most common sound for 'A' is /æ/ as in the word ""cat."" However, there are other sounds like /ɑː/ as in ""father"" or /æ/ as in ""trap,"" among others. For precise phonetic analysis, refer to a detailed phonetics guide or chart.","Silent in 'ate' and 'great', but pronounced as 'a' in 'apple'.",0.7,0.68,0.54
-Can you name three colours?,Three colours are Red Blue and Green.,"Yes, I can name three colours: Red, Blue, Green.","Certainly! Three colors are red, blue, and yellow.","Red, Blue, Yellow",0.88,0.83,0.71
+prompt,output,llm_output_llama,llm_output_llama_rag,llm_output_qwen,llm_output_qwen_rag,llm_output_phi,llm_output_phi_rag,similarity_score_llama,similarity_score_llama_rag,similarity_score_qwen,similarity_score_qwen_rag,similarity_score_phi,similarity_score_phi_rag
+What are living things? List some characteristics.,Living things are organisms that show signs of life. Characteristics include: growth reproduction respiration nutrition (need food) excretion (get rid of waste) response to stimuli (sensitivity) and movement.,"I'd be happy to help!
+
+Living things, also known as organisms or life forms, are anything that grows, moves, or responds to its environment. Here are some common characteristics of living things:
+
+1. **Growth**: Living things grow, change, or develop over time.
+2. **Movement**: Living things can move, change direction, or respond to stimuli.
+3. **Response to Environment**: Living things respond to changes in their environment, such as light, temperature, or touch.
+",TheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheThe,"Living things are organisms that exhibit certain characteristics and abilities that distinguish them from non-living entities. Here are some key characteristics of living things:
+
+1. **Metabolism**: Living things can take in nutrients and energy to sustain their life processes. This includes the breakdown of food (catabolism) and the synthesis of new molecules (anabolism).
+
+2. **Homeostasis**: Living things maintain a stable internal environment despite changes in their external environment. This involves regulating temperature, pH levels","Living things are characterized by the following essential features:
+
+- Move
+- Eat
+- Grow
+- Breathe
+- Excrete
+- Respond to stimuli
+- Reproduce
+- Die
+
+Plants show growth in Activity 10.2, and another characteristic clearly in plants is movement (e.g., opening and closing of leaves).","Living things, also known as organisms, are entities that exhibit the characteristics of life. These characteristics distinguish living things from non-living matter. Here are some key characteristics of living things:
+
+1. Organization: Living organisms are highly organized, with cells as the basic unit of life. These cells are specialized and work together to form tissues, organs, and organ systems.
+
+2. Metabolism: Living things undergo metabolic processes,","Living things are entities that exhibit several distinct characteristics which set them apart from non-living things. These characteristics include:
+
+1. Movement: Living beings have the ability to move, either internally (like the movement of blood in animals) or externally (like the growth of roots in plants).
+
+2. Eating: They consume nutrients and energy to maintain their bodily functions and support growth.
+
+3. Growth: Living beings under",0.89,0.44,0.89,0.84,0.88,0.88
+Describe the structure of a typical plant cell. Mention key organelles.,A plant cell typically has a cell wall (outermost layer provides rigidity) cell membrane cytoplasm a large central vacuole (stores water maintains turgor) nucleus (contains genetic material) chloroplasts (site of photosynthesis) mitochondria (site of respiration) ribosomes ER Golgi apparatus.,"I'd be happy to help!
+
+A typical plant cell has a structure that can be divided into several organelles, each with a specific function. Here's a breakdown of the main components:
+
+1. **Cell Wall**: A rigid, external layer composed of cellulose, hemicellulose, and pectin. It provides structural support, protection, and regulates water and nutrient uptake.
+
+2. **Plasma Membrane (Plasma Membrane)**: The outermost layer of the","The nucleus of a cell is the region where the cell's genetic material is stored. The nucleus contains the cell's genetic material, and it is the control center of the cell. The nucleus is a membrane-bound organelle, and it is the largest organelle in the cell. The nucleus is a dynamic organelle, and it is involved in many cellular processes, including protein synthesis, transcription, and cell signaling. The nucleus is a complex organelle, and it is composed of","A typical plant cell is structurally distinct from animal cells and includes several key organelles that perform various functions essential for the cell's survival and growth. Here’s an overview of the typical structure and key organelles found in a plant cell:
+
+### Cell Wall
+- **Location**: Surrounds the cell membrane.
+- **Function**: Provides structural support and protection to the cell, giving it its rigid shape.
+- **Composition**: Mainly composed of cellulose, hemicellulose,","A typical plant cell has a distinct structure compared to animal cells, with several key organelles performing essential functions. The primary structures include:
+
+- **Cell Wall**: Provides structural support and protection.
+- **Nucleus**: Houses the genetic material and controls cellular activities.
+- **Endoplasmic Reticulum (ER)**: Involved in protein and lipid synthesis.
+- **Golgi Apparatus**: Processes and packages proteins for secretion or transport.
+- **Lysosomes**: Cont","A typical plant cell is characterized by a rigid cell wall made of cellulose that provides structural support and protection. Inside this cell wall lies the plasma membrane, which controls the movement of substances in and out of the cell. The cytoplasm, a gel-like substance, fills the cell and contains various organelles.
+
+Key organelles in a plant cell include:
+
+1. **Nucleus**: The control center of the","A typical plant cell is organized with a distinct structure that includes several key organelles. The outermost layer is the cell wall, which provides support and protection. Inside the cell wall is the plasma membrane that controls the movement of substances in and out of the cell.
+
+Within the cell, the nucleus is a prominent organelle that contains the cell's genetic material (DNA) and controls cellular activities. The nucleus is surrounded by a nuclear envelope",0.84,0.76,0.83,0.85,0.85,0.85
+Describe the fluid mosaic model of the plasma membrane.,Proposed by Singer and Nicolson this model describes the plasma membrane as a fluid structure where proteins are embedded or attached to a double layer (bilayer) of phospholipids. Lipids and some proteins can move laterally hence 'fluid mosaic'.,"The fluid mosaic model (FMM) is a widely accepted theory that describes the structure of the plasma membrane, which is the thin layer of lipid and protein molecules that surrounds and separates the cell's contents from the external environment.
+
+According to the FMM, the plasma membrane is composed of:
+
+1. **Lipid bilayer**: The plasma membrane is a phospholipid bilayer, meaning that it is composed of two layers of lipid molecules, with the hydrophobic (water-rep",TheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheTheThe,"The fluid mosaic model is a widely accepted and influential model for understanding the structure of the plasma membrane in animal cells. This model describes the plasma membrane as a bilayer of phospholipids with embedded proteins, which gives it its characteristic fluidity and mosaic appearance.
+
+Here's a detailed breakdown of the key components of the fluid mosaic model:
+
+1. **Phospholipid Bilayer**: The core of the plasma membrane is composed of a double layer of phospholipids. Phosphol","The fluid mosaic model of the plasma membrane, proposed by Singer and Nicolson in 1972, describes the plasma membrane as a fluid layer composed primarily of a phospholipid bilayer. Embedded within or attached to this bilayer are various proteins that can move laterally within the membrane. This arrangement allows for flexibility and dynamic changes in the membrane's composition and function. The plasma membrane is selectively permeable, meaning it controls what substances can enter or leave the cell, and it interacts","The fluid mosaic model is a conceptual representation of the plasma membrane's structure, proposed by S.J. Singer and Garth L. Nicolson in 1972. This model describes the plasma membrane as a dynamic and fluid structure composed of a phospholipid bilayer interspersed with various proteins, cholesterol, and carbohydrates.
+
+Here are the key components and features of the","The fluid mosaic model of the plasma membrane, proposed by Singer and Nicolson in 1972, describes the structure of the cell membrane as a quasi-fluid layer composed of lipids and proteins. The lipids, mainly phospholipids, form a bilayer that provides a flexible matrix for the membrane. This bilayer allows for the lateral movement of proteins within it, contributing to the membrane's fluid nature",0.86,0.48,0.89,0.92,0.9,0.93
