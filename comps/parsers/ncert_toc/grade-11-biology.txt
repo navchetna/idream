@@ -1,0 +1,319 @@
+1;DIVERSITY IN THE LIVING WORLD
+2;THE LIVING WORLD
+3;DIVERSITY IN THE LIVING WORLD
+3;TAXONOMIC CATEGORIES
+4;Species
+4;Genus
+4;Family
+4;Order
+4;Class
+4;Phylum
+4;Kingdom
+3;SUMMARY
+3;EXERCISES
+2;BIOLOGICAL CLASSIFICATION
+3;KINGDOM MONERA
+4;Archaebacteria
+4;Eubacteria
+3;KINGDOM PROTISTA
+4;Chrysophytes
+4;Dinoflagellates
+4;Euglenoids
+4;Slime Moulds
+4;Protozoans
+3;KINGDOM FUNGI
+4;Phycomycetes
+4;Ascomycetes
+4;Basidiomycetes
+4;Deuteromycetes
+3;KINGDOM PLANTAE
+3;KINGDOM ANIMALIA
+3;VIRUSES, VIROIDS, PRIONS AND LICHENS
+3;SUMMARY
+3;EXERCISES
+2;PLANT KINGDOM
+3;ALGAE
+4;Chlorophyceae
+4;Phaeophyceae
+4;Rhodophyceae
+3;BRYOPHYTES
+4;Liverworts
+4;Mosses
+3;PTERIDOPHYTES
+3;GYMNOSPERMS
+3;ANGIOSPERMS
+3;SUMMARY
+3;EXERCISES
+2;ANIMAL KINGDOM
+3;BASIS OF CLASSIFICATION
+4;Levels of Organisation
+4;Symmetry
+4;Diploblastic and Triploblastic Organisation
+4;Coelom
+4;Segmentation
+4;Notochord
+3;CLASSIFICATION OF ANIMALS
+4;Phylum – Porifera
+4;Phylum – Coelenterata (Cnidaria)
+4;Phylum – Ctenophora
+4;Phylum – Platyhelminthes
+4;Phylum – Aschelminthes
+4;Phylum – Annelida
+4;Phylum – Arthropoda
+4;Phylum – Mollusca
+4;Phylum – Echinodermata
+4;Phylum – Hemichordata
+4;Phylum – Chordata
+5;Class – Cyclostomata
+5;Class – Chondrichthyes
+5;Class – Osteichthyes
+5;Class – Amphibia
+5;Class – Reptilia
+5;Class – Aves
+5;Class – Mammalia
+3;SUMMARY
+3;EXERCISES
+1;STRUCTURAL ORGANISATION IN PLANTS AND ANIMALS
+2;MORPHOLOGY OF FLOWERING PLANTS
+3;THE ROOT
+3;Regions of the Root
+3;THE STEM
+3;THE LEAF
+4;Venation
+4;Types of Leaves
+4;Phyllotaxy
+3;THE INFLORESCENCE
+3;THE FLOWER
+4;Parts of a Flower
+5;Calyx
+5;Corolla
+5;Androecium
+5;Gynoecium
+3;THE FRUIT
+3;THE SEED
+4;Structure of a Dicotyledonous Seed
+4;Structure of Monocotyledonous Seed
+3;SEMI-TECHNICAL DESCRIPTION OF A TYPICAL FLOWERING PLANT
+3;SOLANACEAE
+3;SUMMARY
+3;EXERCISES
+2;ANATOMY OF FLOWERING PLANTS
+3;THE TISSUE SYSTEM
+4;Epidermal Tissue System
+4;The Ground Tissue System
+4;The Vascular Tissue System
+3;ANATOMY OF DICOTYLEDONOUS AND MONOCOTYLEDONOUS PLANTS
+4;Dicotyledonous Root
+4;Monocotyledonous Root
+4;Dicotyledonous Stem
+4;Monocotyledonous Stem
+4;Dorsiventral (Dicotyledonous) Leaf
+4;Isobilateral (Monocotyledonous) Leaf
+3;SUMMARY
+3;EXERCISES
+2;STRUCTURAL ORGANISATION IN ANIMALS
+3;ORGAN AND ORGAN SYSTEM
+3;FROGS
+4;Morphology
+4;Anatomy
+3;SUMMARY
+3;EXERCISES
+1;CELL: STRUCTURE AND FUNCTIONS
+2;CELL: THE UNIT OF LIFE
+3;WHAT IS A CELL?
+3;CELL THEORY
+3;AN OVERVIEW OF CELL
+3;PROKARYOTIC CELLS
+4;Cell Envelope and its Modifications
+4;Ribosomes and Inclusion Bodies
+3;EUKARYOTIC CELLS
+4;Cell Membrane
+4;Cell Wall
+4;Endomembrane System
+5;The Endoplasmic Reticulum (ER)
+5;Golgi apparatus
+5;Lysosomes
+5;Vacuoles
+4;Mitochondria
+4;Plastids
+4;Ribosomes
+4;Cytoskeleton
+4;Cilia and Flagella
+4;Centrosome and Centrioles
+4;Nucleus
+4;Microbodies
+3;SUMMARY
+3;EXERCISES
+2;BIOMOLECULES
+3;HOW TO ANALYSE CHEMICAL COMPOSITION?
+3;PRIMARY AND SECONDARY METABOLITES
+3;BIOMACROMOLECULES
+3;PROTEINS
+3;POLYSACCHARIDES
+3;NUCLEIC ACIDS
+3;STRUCTURE OF PROTEINS
+3;ENZYMES
+4;Chemical Reactions
+4;How do Enzymes bring about such High Rates of Chemical Conversions?
+4;Nature of Enzyme Action
+4;Factors Affecting Enzyme Activity
+5;Temperature and pH
+5;Concentration of Substrate
+4;Classification and Nomenclature of Enzymes
+4;Co-factors
+3;SUMMARY
+3;EXERCISES
+2;CELL CYCLE AND CELL DIVISION
+3;CELL CYCLE
+4;Phases of Cell Cycle
+3;M PHASE
+4;Prophase
+4;Metaphase
+4;Anaphase
+4;Telophase
+4;Cytokinesis
+3;Significance of Mitosis
+3;MEIOSIS
+4;Meiosis I
+4;Meiosis II
+3;SIGNIFICANCE OF MEIOSIS
+3;SUMMARY
+3;EXERCISES
+1;PLANT PHYSIOLOGY
+2;PHOTOSYNTHESIS IN HIGHER PLANTS
+3;WHAT DO WE KNOW?
+3;EARLY EXPERIMENTS
+3;WHERE DOES PHOTOSYNTHESIS TAKE PLACE?
+3;HOW MANY TYPES OF PIGMENTS ARE INVOLVED IN PHOTOSYNTHESIS?
+3;WHAT IS LIGHT REACTION?
+3;THE ELECTRON TRANSPORT
+4;Splitting of Water
+4;Cyclic and Non-cyclic Photo-phosphorylation
+4;Chemiosmotic Hypothesis
+3;WHERE ARE THE ATP AND NADPH USED?
+4;The Primary Acceptor of CO2
+4;The Calvin Cycle
+3;THE C4 PATHWAY
+3;PHOTORESPIRATION
+3;FACTORS AFFECTING PHOTOSYNTHESIS
+4;Light
+4;Carbon dioxide Concentration
+4;Temperature
+4;Water
+3;SUMMARY
+3;EXERCISES
+2;RESPIRATION IN PLANTS
+3;DO PLANTS BREATHE?
+3;GLYCOLYSIS
+3;FERMENTATION
+3;AEROBIC RESPIRATION
+4;Tricarboxylic Acid Cycle
+4;Electron Transport System (ETS) and Oxidative Phosphorylation
+3;THE RESPIRATORY BALANCE SHEET
+3;AMPHIBOLIC PATHWAY
+3;RESPIRATORY QUOTIENT
+3;SUMMARY
+3;EXERCISES
+2;PLANT GROWTH AND DEVELOPMENT
+3;GROWTH
+4;Plant Growth Generally is Indeterminate
+4;Growth is Measurable
+4;Phases of Growth
+4;Growth Rates
+4;Conditions for Growth
+3;DIFFERENTIATION, DEDIFFERENTIATION AND REDIFFERENTIATION
+3;DEVELOPMENT
+3;PLANT GROWTH REGULATORS
+4;Characteristics
+4;The Discovery of Plant Growth Regulators
+4;Physiological Effects of Plant Growth Regulators
+5;Auxins
+5;Gibberellins
+5;Cytokinins
+5;Ethylene
+5;Abscisic acid
+3;SUMMARY
+3;EXERCISES
+1;HUMAN PHYSIOLOGY
+2;BREATHING AND EXCHANGE OF GASES
+3;RESPIRATORY ORGANS
+4;Human Respiratory System
+3;MECHANISM OF BREATHING
+4;Respiratory Volumes and Capacities
+3;EXCHANGE OF GASES
+3;TRANSPORT OF GASES
+4;Transport of Oxygen
+4;Transport of Carbon dioxide
+3;REGULATION OF RESPIRATION
+3;DISORDERS OF RESPIRATORY SYSTEM
+3;SUMMARY
+3;EXERCISES
+2;BODY FLUIDS AND CIRCULATION
+3;BLOOD
+4;Plasma
+4;Formed Elements
+4;Blood Groups
+5;ABO grouping
+5;Rh grouping
+4;Coagulation of Blood
+3;LYMPH (TISSUE FLUID)
+3;CIRCULATORY PATHWAYS
+4;Human Circulatory System
+4;Cardiac Cycle
+4;Electrocardiogram (ECG)
+3;DOUBLE CIRCULATION
+3;REGULATION OF CARDIAC ACTIVITY
+3;DISORDERS OF CIRCULATORY SYSTEM
+3;SUMMARY
+3;EXERCISES
+2;EXCRETORY PRODUCTS AND THEIR ELIMINATION
+3;HUMAN EXCRETORY SYSTEM
+3;URINE FORMATION
+3;FUNCTION OF THE TUBULES
+3;MECHANISM OF CONCENTRATION OF THE FILTRATE
+3;REGULATION OF KIDNEY FUNCTION
+3;MICTURITION
+3;ROLE OF OTHER ORGANS IN EXCRETION
+3;DISORDERS OF THE EXCRETORY SYSTEM
+3;SUMMARY
+3;EXERCISES
+2;LOCOMOTION AND MOVEMENT
+3;TYPES OF MOVEMENT
+3;MUSCLE
+4;Structure of Contractile Proteins
+4;Mechanism of Muscle Contraction
+3;SKELETAL SYSTEM
+3;JOINTS
+3;DISORDERS OF MUSCULAR AND SKELETAL SYSTEM
+3;SUMMARY
+3;EXERCISES
+2;NEURAL CONTROL AND COORDINATION
+3;NEURAL SYSTEM
+3;HUMAN NEURAL SYSTEM
+3;NEURON AS STRUCTURAL AND FUNCTIONAL UNIT OF NEURAL SYSTEM
+4;Generation and Conduction of Nerve Impulse
+4;Transmission of Impulses
+3;CENTRAL NEURAL SYSTEM
+4;Forebrain
+4; Midbrain
+4;Hindbrain
+3;SUMMARY
+3;EXERCISES
+2;CHEMICAL COORDINATION AND INTEGRATION
+3;ENDOCRINE GLANDS AND HORMONES
+3;HUMAN ENDOCRINE SYSTEM
+4;The Hypothalamus
+4;The Pituitary Gland
+4;The Pineal Gland
+4;Thyroid Gland
+4;Parathyroid Gland
+4;Thymus
+4;Adrenal Gland
+4;Pancreas
+4;Testis
+4;Ovary
+3;HORMONES OF HEART, KIDNEY AND GASTROINTESTINAL TRACT
+3;MECHANISM OF HORMONE ACTION
+3;SUMMARY
+3;EXERCISES
+1;NOTE

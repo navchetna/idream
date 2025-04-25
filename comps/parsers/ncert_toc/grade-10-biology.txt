@@ -1,0 +1,88 @@
+1;Life Processes
+2;WHAT ARE LIFE PROCESSES?
+3;QUESTIONS
+2;NUTRITION
+3;How do living things get their food?
+3;Autotrophic Nutrition
+3;Heterotrophic Nutrition
+3;How do Organisms obtain their Nutrition?
+3;Nutrition in Human Beings
+3;QUESTIONS
+2;RESPIRATION
+3;QUESTIONS
+2;TRANSPORTATION
+3;Transportation in Human Beings
+4;Our pump — the heart
+4;Oxygen enters the blood in the lungs
+4;The tubes – blood vessels
+4;Maintenance by platelets
+4;Lymph
+3;Transportation in Plants
+4;Transport of water
+4;Transport of food and other substances
+3;QUESTIONS
+2;EXCRETION
+3;Excretion in Human Beings
+3;Excretion in Plants
+3;QUESTIONS
+2;What you have learnt
+2;EXERCISES
+1;Control and Coordination
+2;ANIMALS – NERVOUS SYSTEM
+3;What happens in Reflex Actions?
+3;Human Brain
+3;How are these Tissues protected?
+3;How does the Nervous Tissue cause Action?
+3;QUESTIONS
+2;COORDINATION IN PLANTS
+3;Immediate Response to Stimulus
+3;Movement Due to Growth
+3;QUESTIONS
+2;HORMONES IN ANIMALS
+3;QUESTIONS
+2;What you have learnt
+2;EXERCISES
+1;How do Organisms Reproduce?
+2;DO ORGANISMS CREATE EXACT COPIES OF THEMSELVES?
+3;The Importance of Variation
+3;QUESTIONS
+2;MODES OF REPRODUCTION USED BY SINGLE ORGANISMS
+3;Fission
+3;Fragmentation
+3;Regeneration
+3;Budding
+3;Vegetative Propogation
+3;Spore Formation
+3;QUESTIONS
+2;SEXUAL REPRODUCTION
+3;Why the Sexual Mode of Reproduction?
+3;Reproduction in Human Beings
+4;Male Reproductive System
+4;Female Reproductive System
+4;What happens when the Egg is not Fertilised?
+4;Reproductive Health
+3;QUESTIONS
+2;What you have learnt
+2;EXERCISES
+1;Heredity
+2;ACCUMULATION OF VARIATION DURING REPRODUCTION
+3;QUESTIONS
+2;HEREDITY
+3;Inherited Traits
+3;Rules for the Inheritance of Traits – Mendel’s Contributions
+3;How do these Traits get Expressed?
+3;Sex Determination
+3;QUESTIONS
+2;What you have learnt
+2;EXERCISES
+1;Our Environment
+2;ECO-SYSTEM — WHAT ARE ITS COMPONENTS?
+3;Food Chains and Webs
+3;QUESTIONS
+2;HOW DO OUR ACTIVITIES AFFECT THE ENVIRONMENT?
+3;Ozone Layer and How it is Getting Depleted
+3;Managing the Garbage we Produce
+3;QUESTIONS
+3;QUESTIONS
+2;What you have learnt
+2;EXERCISES

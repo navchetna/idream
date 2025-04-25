@@ -167,7 +167,7 @@ class TreeParser:
                         continue
                     level, heading_toc = toc_line.split(";")
                     heading = heading.strip().replace("*", "")
-                    # with open("out/grade-8-biology/debug.txt", "a") as f:
+                    # with open("out/grade-12-biology/debug.txt", "a") as f:
                     #     print(heading, file=f)
                     #     print(heading_toc, file=f)
                     #     print(file=f)

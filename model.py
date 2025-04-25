@@ -66,7 +66,7 @@ def generate_text(class_range: str, query: str):
     result_qwen = pipe_qwen.generate(prompt_without_context, max_new_tokens=100, do_sample=False)
     result_phi = pipe_phi.generate(prompt_without_context, max_new_tokens=100, do_sample=False)
 
-    similar_docs = knowledgeBase.similarity_search(query, k=4)
+    similar_docs = knowledgeBase.similarity_search(query, k=5)
     filtered_docs = [
         doc for doc in similar_docs if int(doc.metadata['grade']) in grade_list
     ]
