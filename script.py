@@ -5,8 +5,8 @@ import requests
 from model import generate_text
 
 # input = ["biology.csv", "english.csv", "maths.csv", "physics.csv", "chemistry.csv"]
-input = ["test.csv"]
-# input = ["biology.csv"]
+# input = ["test.csv"]
+input = ["biology.csv"]
 
 class Inference:
     class_range: str

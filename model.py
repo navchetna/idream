@@ -67,7 +67,6 @@ def generate_text(class_range: str, query: str):
         doc for doc in similar_docs if int(doc.metadata['grade']) in grade_list
     ] 
     context = format_docs(filtered_docs)
-    print(context)
     prompt_with_context = prompt_template_with_context.format(context=context, question=query)
 
     result_llama_rag = pipe_llama.generate(prompt_with_context, max_new_tokens=100, do_sample=False)
